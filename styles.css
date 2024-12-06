@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#inicio{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+}
+#inicio .contenedor{
+    width: 100%;
+    height: auto;
+}
+
+#inicio .contenedor header {
+    width: 100%;
+    background-color:white ;
+    padding: 10px; /*esto va en sentido del reloj, arriba, derecha, abajo, izquierda*/
+   /* padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+  
+}
+
+#inicio .contenedor header .titulo {
+    width: 500px;
+    margin: 0 auto;
+    /*background-color: aqua;*/
+    
+
+}
+#inicio .contenedor .contenido{
+    width: 100%;
+    height: 95vh;
+    overflow-y: scroll 
+
+}
+
+.post{
+    width: 500px;
+    margin: 20px auto;
+    
+}
+
+.post .post-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10px;/*aqui lo separe de los bordes, pero quedo un poco sobresalido*/
+    box-sizing: border-box;/*use esto para poder arreglar lo que sobresale*/
+
+}
+.post .post-body{
+    width: 100%;
+    height: 400px;
+
+
+}
+.post .post-body img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;/*la imagen se ajusta al espacio asignado*/
+    object-position: center ;
+}
+.post .post-footer{
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background-color: aqua;
+}
