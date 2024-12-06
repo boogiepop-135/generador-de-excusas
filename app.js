@@ -1,3 +1,6 @@
+//https://www.youtube.com/watch?v=0J4SbVSjxvU//
+
+
 //puse las excusas en español por que me es mas comodo, pero me defiendo en ingles//
 let quien = ['El perro', 'Mi abuela', 'El cartero', 'Mi loro'];
 let accion = ['se comió', 'orinó en', 'rompió', 'tiró'];
